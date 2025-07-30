@@ -1,0 +1,61 @@
+/* ✅ Changed background for better UI */
+body {
+    background : linear-gradient(120deg,lightblue,pink);
+    margin-top: 60px;
+}
+
+/* ✅ Main container style */
+.container {
+    width: 400px;
+    padding: 3rem;
+    border: 2px solid rgb(118, 150, 244);
+    border-radius: 15px;
+    background-color: rgb(247, 200, 190);
+    margin-top: 0 auto; /* center horizontally */
+}
+
+/* ✅ Weather card styling */
+.weather-card {
+    width: 300px;
+    padding: 15px;
+    height: 300px;
+    margin-top: 20px;
+    border: 3px solid rgb(118, 150, 244);
+    border-radius: 5px;
+    box-shadow: 0 0 15px grey;
+    display: none; /* Hidden initially */
+    padding-top: 2rem;
+}
+
+/* ✅ Button styling */
+button {
+    color: white;
+    margin-top: 10px;
+    background-color: rgb(160, 182, 248);
+    padding: 5px 15px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(118, 150, 244);
+}
+
+/* ✅ Error message styling */
+.errorMsg {
+    display: none;
+    color: red;
+    margin-top: 15px;
+}
+
+/* ✅ Input box styling */
+#cityinput {
+    margin-top: 15px;
+    width: 300px;
+    height: 35px;
+    border: 2px solid rgb(118, 150, 244);
+    border-radius: 5px;
+    padding-left: 10px;
+}

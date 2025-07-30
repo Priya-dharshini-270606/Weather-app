@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- ✅ FIX: Removed space from filename (better to avoid spaces in file names) -->
+    <link rel="stylesheet" href="style.css"> <!-- was style (2).css -->
+</head>
+<body>
+
+    <center>
+        <div class="container">
+            <h1><strong>Weather App</strong></h1>
+            <div>
+                <input type="text" id="cityinput" placeholder="Enter the city Name">
+                <button onclick="getweather()">Search</button>
+            </div>
+
+            <!-- ✅ FIX: Changed id from 'errormsg' to 'errorMsg' to match JS code exactly -->
+            <div class="weather-card" id="weathercard"></div>
+            <div class="errorMsg" id="errorMsg"></div> <!-- was id="errormsg" -->
+        </div>
+    </center>
+
+    <!-- ✅ FIX: Removed space from filename (better practice) -->
+    <script src="script.js"></script> <!-- was script (1).js -->
+</body>
+</html>
